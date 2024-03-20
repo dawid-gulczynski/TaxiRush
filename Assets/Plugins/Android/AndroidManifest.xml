@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unity3d.player"
+    xmlns:tools="http://schemas.android.com/tools">
+	<!-- AdColony -->
+	<!-- optional -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<!-- optional -->
+	<uses-permission android:name="android.permission.VIBRATE" />
+
+	<!-- Chartboost -->
+	<!-- Optional (but recommended): Allows the SDK to cache all ad assets (creatives, custom frames, etc.) in external memory. This maximizes performance by immediately delivering ads and reducing network traffic used by the SDK. -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<!-- optional (but recommended): Allows the SDK to check WiFi details in the HTTP request. This will be used alongside Android ID and/or GAID as the identifier for the user. Check out device identifiers for more info. -->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<!-- optional (but recommended): Allows the SDK to handle calls that interrupt video playback.-->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+	<!-- Pangle -->
+
+	<!-- If there is a video ad and it is played with textureView, please be sure to add this, otherwise a black screen will appear -->
+
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<application>
+		<!-- AdMob -->
+
+		<!-- Recent versions of AdMob will crash at runtime if the following data is not present: -->
+		<meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
+	</application>
+</manifest>

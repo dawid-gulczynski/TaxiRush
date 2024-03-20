@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 56cf142adf501e047af8d2915823089a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - przeszkoda1: {fileID: 899505247492489310, guid: 52e3f6297379ffa48954392c6d79ef4e, type: 3}
+  - przeszkoda2: {fileID: 1742804194633896, guid: 08baa6c64e00213479f21969c7a84623, type: 3}
+  - przeszkoda3: {fileID: 6908711010690672192, guid: cbc1d3b7475814f20818245d9e54aca9, type: 3}
+  - przeszkoda4: {fileID: 2431372758668166724, guid: 87b365e5fc281404a8b2cb1011e450c1, type: 3}
+  - przeszkoda5: {fileID: 1335578435277582, guid: e22baf4f271cff6499d9704eaea3b475, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

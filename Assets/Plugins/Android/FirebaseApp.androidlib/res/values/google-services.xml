@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">579429543182</string>
+  <string name="google_storage_bucket" translatable="false">taxi-rush-6e429.appspot.com</string>
+  <string name="project_id" translatable="false">taxi-rush-6e429</string>
+  <string name="google_api_key" translatable="false">AIzaSyCficV8WrmUfurAAYNo9MZL5Kf7ihlEiL8</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCficV8WrmUfurAAYNo9MZL5Kf7ihlEiL8</string>
+  <string name="google_app_id" translatable="false">1:579429543182:android:0b9a6bfcafa5ee623f3b5f</string>
+  <string name="default_android_client_id" translatable="false">579429543182-naaa9bnp0jchepp16cet4itco7sdsfvg.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">579429543182-o1oakttr3rro7h2llu9bdrinup06igjb.apps.googleusercontent.com</string>
+</resources>
